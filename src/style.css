@@ -1,0 +1,753 @@
+body {
+  font-family: 'League Spartan', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.cabecalho {
+  background: #FFFFFF;
+  padding: 1em 0;
+}
+
+.cabecalho_conteudo {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+}
+
+.cabecalho_conteudo img {
+  width: 25%;
+}
+
+.cabecalho_conteudo nav {
+  position: absolute;
+  right: 0;
+  top: 49px;
+}
+
+.cabecalho_conteudo li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+.cabecalho_conteudo a {
+  text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+#principal {
+  background: url("imgs/fundo-cabecalho.png");
+  padding: 6em 0;
+}
+
+.principal_conteudo {
+  width: 940px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+}
+
+.principal_conteudo img {
+  width: 60%;
+}
+
+.principal_conteudo h1 {
+  margin: 1.5em 0;
+  font-size: 30px;
+}
+
+.botao_agendar {
+  padding: 15px 10px;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 15px;
+  background: white;
+  color: black;
+  border: none;
+  border-radius: 30px;
+  width: 60%;
+  margin: 1em 0 0;
+}
+
+#sobre-aulas {
+  background: url("imgs/fundo-principal-t.png");
+}
+
+.gradiente-sobre-aulas {
+  background-image: linear-gradient(to bottom, rgba(15, 15, 15, 0), rgba(15, 15, 15, 1));
+  padding: 3em 0 6em;
+}
+
+#sobre {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.sobre_conteudo {
+  position: relative;
+}
+
+.sobre_conteudo h1 {
+  text-align: initial;
+  font-family: 'League Spartan';
+  font-size: 3em;
+  padding: 2rem 0;
+}
+
+.sobre_conteudo li {
+  background: white;
+  width: 40%;
+  display: inline-block;
+  box-sizing: border-box;
+  border: 5px solid #000000;
+  vertical-align: top;
+}
+
+.caixa_imagem {
+  margin: 0 0 0 7em;
+}
+
+.caixa_imagem img {
+  width: 100%;
+}
+
+.caixa_texto {
+  padding: 1em 2em 3.5em 2em;
+  position: absolute;
+  margin: -55px 0px 0px -17px;
+}
+
+.caixa_texto p {
+  width: 100%;
+  text-align: justify;
+  margin: 1.5em 0;
+  line-height: 1.1em;
+}
+
+.botao_sobre {
+  padding: 5px 10px;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  background: black;
+  color: white;
+  border-radius: 20px;
+  position: absolute;
+  top: 630px;
+  right: 21px;
+}
+
+#aulas h1 {
+  width: 940px;
+  margin: 7rem auto 2rem;
+  font-family: 'League Spartan';
+  font-size: 3em;
+}
+
+.aulas_conteudo {
+  width: 940px;
+  margin: 0 auto;
+  background: white;
+  box-sizing: border-box;
+  border: 5px solid #000000;
+}
+
+.aulas_itens {
+  width: 940px;
+  margin: 2em 3em;
+}
+
+.aulas_particulares_caixa {
+  display: inline-block;
+  vertical-align: top;
+  width: 40%;
+  margin: 0 1em;
+}
+
+.aulas_particulares_caixa h2 {
+  font-family: 'League Spartan';
+  font-size: 35px;
+}
+
+.aulas_particulares_caixa p {
+  text-align: justify;
+  margin: 2em 0 0;
+  line-height: 1.5em;
+}
+
+.botao_particular {
+  padding: 10px 10px;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  background: black;
+  color: white;
+  border-radius: 20px;
+  width: 100%;
+  margin: 14em 0 0;
+}
+
+.aulas_grupo_caixa {
+  display: inline-block;
+  vertical-align: top;
+  width: 40%;
+  margin: 0 1em;
+}
+
+.aulas_grupo_caixa h2 {
+  font-family: 'League Spartan';
+  font-size: 35px;
+}
+
+.aulas_grupo_caixa p {
+  text-align: justify;
+  margin: 2em 0 0;
+  line-height: 1.5em;
+}
+
+.botao_grupo {
+  padding: 10px 10px;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  background: black;
+  color: white;
+  border-radius: 20px;
+  width: 100%;
+  margin: 12em 0 0;
+}
+
+.slider-p-caixa {
+  background: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider-p {
+  width: 100%;
+  max-width: 600px;
+  height: 400px;
+  margin: 20px;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.slides-p {
+  display: flex;
+  overflow-x: scroll;
+  position: relative;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+}
+
+.slide-p:nth-of-type(even) {
+  background-color: #FFFFFF;
+}
+
+.slide-p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  width: 100%;
+  height: 400px;
+  scroll-snap-align: center;
+  margin-right: 0px;
+  box-sizing: border-box;
+  background: white;
+  transform-origin: center center;
+  transform: scale(1);
+}
+
+.slide-p__text {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.slide-p a {
+  background: none;
+  border: none;
+}
+
+a.slide-p__prev,
+.slider-p::before {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  left: 5%;
+}
+
+a.slide-p__next,
+.slider-p::after {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  right: 5%;
+}
+
+.slider-p::before,
+.slider-p::after,
+.slide-p__prev,
+.slide-p__next {
+  position: absolute;
+  top: 48%;
+  width: 35px;
+  height: 35px;
+  border: solid black;
+  border-width: 0 4px 4px 0;
+  padding: 3px;
+  box-sizing: border-box;
+}
+
+.slider-p::before,
+.slider-p::after {
+  content: "";
+  z-index: 1;
+  background: none;
+  pointer-events: none;
+}
+
+.slider-p__nav {
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  width: 200px;
+  margin-left: -100px;
+  text-align: center;
+}
+
+.slider-p__navlink {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: black;
+  margin: 0 10px 0 10px;
+}
+
+.slider-g-caixa {
+  background: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider-g {
+  width: 100%;
+  max-width: 600px;
+  height: 400px;
+  margin: 20px;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.slides-g {
+  display: flex;
+  overflow-x: scroll;
+  position: relative;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+}
+
+.slide-g:nth-of-type(even) {
+  background-color: #FFFFFF;
+}
+
+.slide-g {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  width: 100%;
+  height: 400px;
+  scroll-snap-align: center;
+  margin-right: 0px;
+  box-sizing: border-box;
+  background: white;
+  transform-origin: center center;
+  transform: scale(1);
+}
+
+.slide-g__text {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.slide-g a {
+  background: none;
+  border: none;
+}
+
+a.slide-g__prev,
+.slider-g::before {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  left: 5%;
+}
+
+a.slide-g__next,
+.slider-g::after {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  right: 5%;
+}
+
+.slider-g::before,
+.slider-g::after,
+.slide-g__prev,
+.slide-g__next {
+  position: absolute;
+  top: 48%;
+  width: 35px;
+  height: 35px;
+  border: solid black;
+  border-width: 0 4px 4px 0;
+  padding: 3px;
+  box-sizing: border-box;
+}
+
+.slider-g::before,
+.slider-g::after {
+  content: "";
+  z-index: 1;
+  background: none;
+  pointer-events: none;
+}
+
+.slider-g__nav {
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  width: 200px;
+  margin-left: -100px;
+  text-align: center;
+}
+
+.slider-g__navlink {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: black;
+  margin: 0 10px 0 10px;
+}
+
+#in-company {
+  background: url("imgs/fundo-cabecalho.png");
+}
+
+.gradiente-in-company {
+  background-image: linear-gradient(to top, rgba(15, 15, 15, 0), rgba(15, 15, 15, 1));
+  padding: 3em 0 4em;
+}
+
+.aulas_in-company_caixa {
+  width: 940px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+}
+
+.aulas_in-company_caixa h1 {
+  text-align: initial;
+  font-family: 'League Spartan';
+  font-size: 3em;
+  padding: 0 0 1rem;
+}
+
+.p1-inc {
+  line-height: 1.5em;
+  margin: 0.5em 0;
+  text-align: justify;
+  font-style: italic;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.p2-inc {
+  text-align: justify;
+  font-family: 'League Spartan';
+  font-weight: bold;
+  font-size: 25px;
+  text-decoration: underline;
+  margin: 2em 0;
+}
+
+.p3-inc {
+  line-height: 1.5em;
+  margin: 0.5em 0;
+  text-align: justify;
+  font-size: 16px;
+}
+
+.p3-inc strong {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.aulas_in-company_caixa h2 {
+  font-size: 3em;
+  font-family: 'League Spartan';
+  padding: 2rem 0;
+}
+
+.grupo_imgs_company img {
+  margin: 1em 1.5em;
+}
+
+.cbf {
+  width: 200px;
+  margin: 0 0 2em;
+}
+
+.aulas_in-company_botoes input {
+  padding: 15px 10px;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 15px;
+  background: white;
+  color: black;
+  border-radius: 30px;
+  border: none;
+  width: 80%;
+  margin: 1em 0 0;
+}
+
+#depoimentos {
+  background: url("imgs/fundo-principal-t.png");
+  padding: 5em 0;
+}
+
+.slider-d-caixa {
+  width: 634px;
+  margin: 0 auto;
+  background: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.slider-d {
+  width: 100%;
+  max-width: 600px;
+  height: 400px;
+  margin: 20px;
+  text-align: center;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.slides-d {
+  display: flex;
+  overflow-x: scroll;
+  position: relative;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+}
+
+.slide-d:nth-of-type(even) {
+  background-color: #FFFFFF
+}
+
+.slide-d {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  width: 100%;
+  height: 400px;
+  scroll-snap-align: center;
+  margin-right: 0px;
+  box-sizing: border-box;
+  background: white;
+  transform-origin: center center;
+  transform: scale(1);
+}
+
+.slide-d__text {
+  font-size: 0.9em;
+  margin: 0 4em;
+}
+
+.slide-d__text img {
+  border: 5px solid #888888;;
+  border-radius: 50%;
+} 
+
+.h1-d {
+  font-family: 'League Spartan';
+  font-weight: bold;
+  font-size: 35px;
+  text-transform: uppercase;
+}
+
+.h2-d {
+  font-family: 'League Spartan';
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.p1-d {
+  margin: 2em 0 1em;
+  line-height: 1.2em;
+  text-align: center;
+}
+
+.depoente-descricao {
+  margin-bottom: 1em;
+}
+
+.depoentes {
+  display: inline-block;
+  margin-bottom: -1em;
+}
+
+.depoentes p {
+  text-align: initial;
+}
+
+.slide-d a {
+  background: none;
+  border: none;
+}
+
+a.slide-d__prev,
+.slider-d::before {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  left: 5%;
+}
+
+a.slide-d__next,
+.slider-d::after {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  right: 5%;
+}
+
+.slider-d::before,
+.slider-d::after,
+.slide-d__prev,
+.slide-d__next {
+  position: absolute;
+  top: 48%;
+  width: 35px;
+  height: 35px;
+  border: solid black;
+  border-width: 0 4px 4px 0;
+  padding: 3px;
+  box-sizing: border-box;
+}
+
+.slider-d::before,
+.slider-d::after {
+  content: "";
+  z-index: 1;
+  background: none;
+  pointer-events: none;
+}
+
+.slider-d__nav {
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  width: 200px;
+  margin-left: -100px;
+  text-align: center;
+}
+
+.slider-d__navlink {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: black;
+  margin: 0 10px 0 10px;
+}
+
+footer {
+  background: #323232;
+  padding: 3em 0;
+}
+
+.titulo-contato {
+  text-align: center;
+  color: white;
+  margin: 0 0 2em 0;
+}
+
+.titulo-contato h1 {
+  font-size: 60px;
+  font-family: 'League Spartan';
+  font-weight: bold;
+}
+
+.titulo-contato p {
+  margin: 1em 0;
+}
+
+form {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.estilizar-form {
+  margin: 0 8em;
+  padding: 2em 0 4em 1em;
+  box-sizing: border-box;
+  box-shadow: 1px 1px rgba(15, 15, 15), -1px -1px rgba(15, 15, 15);
+
+}
+
+#ajeitar-campos {
+  display: inline-block;
+  vertical-align: bottom;
+  text-align: center;
+  align-items: initial;
+}
+
+.div-form {
+  margin-bottom: 1em;
+}
+
+.input-padrao {
+  padding: 10px 10px;
+  font-family: 'Montserrat';
+  font-size: 1em;
+  background: #323232;
+  border: none;
+  color: white;
+}
+
+#nomesobrenome {
+  display: inline;
+}
+
+#telefoneemail {
+  display: inline;
+}
+
+.enviar {
+  padding: 12px 10px;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 12px;
+  border: none;
+  background: white;
+  color: black;
+  border-radius: 30px;
+  width: 19%;
+  margin: 0 0px 0.2em 3em;
+}
