@@ -15,30 +15,30 @@
         <h1 class="logo"><img src="imgs/logo.png" alt="Logo Prof. Rubens Oliveira"></h1>
         <nav>
           <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="sobre.html">Sobre</a></li>
-            <li><a href="aula.html">Aulas</a></li>
-            <li><a href="aula.html">In-Company</a></li>
-            <li><a href="aula.html">Depoimentos</a></li>
-            <li><a href="aula.html">Contato</a></li>
+            <li><a href="#anchor-principal">Home</a></li>
+            <li><a href="#anchor-sobre">Sobre</a></li>
+            <li><a href="#anchor-aulas">Aulas</a></li>
+            <li><a href="#anchor-incompany">In-Company</a></li>
+            <li><a href="#anchor-depoimentos">Depoimentos</a></li>
+            <li><a href="#anchor-contato">Contato</a></li>
           </ul>
         </nav>
       </div>
     </header>
 
     <main>
-      <section id="principal">
+      <section id="principal"><a id="anchor-principal"></a>
         <div class="principal_conteudo">
           <img src="imgs/logo-branca.png" alt="Logo Professor Rubens Oliveira">
           <h1>Aulas de Inglês Particulares, Grupos e In-Company</h1>
-          <input type="button" value="Agende sua aula experimental!" class="botao_agendar">
+          <a href="#anchor-contato"><button class="botao_agendar">Agende sua aula experimental!</button></a>
         </div>
       </section>
 
       <section id="sobre-aulas">
         <div class="gradiente-sobre-aulas">
 
-          <section id="sobre">
+          <section id="sobre"><a id="anchor-sobre"></a>
             <ul class="sobre_conteudo">
               <h1>Sobre Mim</h1>
               <li class="caixa_imagem">
@@ -49,12 +49,12 @@
                 <p>As pessoas que se tornam fluentes em outro idioma não se prendem ao modelo tradicional de ensino e levam a língua para muito além da aula, vivenciando o idioma, inserindo-o nas mais diferentes atividades do dia-a-dia e aprendendo com isso. Ou seja, praticando!</p>
                 <p>Sim, notem que eu não usei o verbo estudar até agora, e sim, praticar. Porque o maior erro das pessoas quando elas vão aprender um idioma, é encará-lo como uma disciplina escolar. Afinal, fomos condicionados a isso desde crianças, desde a escola...</p>
                 <p>Mas calma lá! Eu não estou dizendo que estudar não é importante. É óbvio que é, mas deve ser feito de forma inteligente e não deve ofuscar o mais importante: a imersão, a vivência e a prática...</p>
-                <input type="button" value="Marca uma aula gratuita e te explico melhor!" class="botao_sobre">
+                <a href="#anchor-contato"><button class="botao_sobre">Marca uma aula gratuita e te explico melhor!</button></a>
               </li>
             </ul>
           </section>
 
-          <section id="aulas">
+          <section id="aulas"><a id="anchor-aulas"></a>
             <h1>Aulas Particulares/Em Grupo</h1>
             <ul class="aulas_conteudo">
               <li class="aulas_itens">
@@ -89,7 +89,7 @@
                 <div class="aulas_particulares_caixa">
                   <h2>Particulares</h2>
                   <p>Eu ofereço aulas particulares presenciais e online (ao vivo) para entender suas demandas, necessidades, dificuldades, objetivos e gostos individuais, moldando as aulas e os materiais junto com você, tirando o melhor proveito com base naquilo que lhe cai melhor.</p>
-                  <input type="button" value="Agendar aula experimental particular" class="botao_particular">
+                  <a href="#anchor-contato"><button class="botao_particular">Agendar aula experimental particular!</button></a>
                 </div>
               </li>
               <li class="aulas_itens">
@@ -124,7 +124,7 @@
                 <div class="aulas_grupo_caixa">
                   <h2>Grupo (Dupla ou mais)</h2>
                   <p>Minhas aulas também podem ser feitas em grupos de pessoas com objetivos, demandas e necessidades semelhantes. Os materiais podem ser personalizados de maneira uniforme para todos, ou  cada um pode escolher seu próprio material dependendo da dinâmica do grupo.</p>
-                  <input type="button" value="Agendar aula experimental em grupo" class="botao_grupo">
+                  <a href="#anchor-contato"><button class="botao_grupo">Agendar aula experimental em grupo!</button></a>
                 </div>
               </li>
             </ul>
@@ -132,7 +132,7 @@
         </div>
       </section>
 
-      <section id="in-company">
+      <section id="in-company"><a id="anchor-incompany"></a>
         <div class="gradiente-in-company">
           <div class="aulas_in-company_caixa">
             <h1>Aulas In-Company</h1>
@@ -163,14 +163,14 @@
             <img class="cbf" src="imgs/cbf.png" alt="Logo da CBF">
 
             <div class="aulas_in-company_botoes">
-              <input type="button" value="Clique aqui para aulas particulares In-Company">
-              <input type="button" value="Clique aqui para turmas In-Company">
+              <a href="#anchor-contato"><button class="botao_incompany">Clique aqui para aulas particulares In-Company!</button></a>
+              <a href="#anchor-contato"><button class="botao_incompany">Clique aqui para turmas In-Company!</button></a>
             </div>
           </div>
         </div>
       </section>
 
-      <section id="depoimentos">
+      <section id="depoimentos"><a id="anchor-depoimentos"></a>
           <div class="slider-d-caixa">
             <div class="slider-d">
               <ul class="slides-d">
@@ -235,7 +235,7 @@
     </main>
 
     <footer>
-      <div class="titulo-contato">
+      <div class="titulo-contato"><a id="anchor-contato"></a>
         <h1>Agende uma aula experimental!</h1>
         <p>Aulas presenciais (apenas na cidade do Rio de Janeiro) e online.</p>
         <p>Tel.: (21) 97138-0401 / E-mail: rubens.wepractice@gmail.com</p>
@@ -260,5 +260,7 @@
         </div>
       </form>
     </footer>
+
+    <script src="main.js"></script>
   </body>
 </html>

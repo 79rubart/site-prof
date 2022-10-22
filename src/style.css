@@ -70,6 +70,7 @@ body {
   border-radius: 30px;
   width: 60%;
   margin: 1em 0 0;
+  text-decoration: none;
 }
 
 #sobre-aulas {
@@ -118,6 +119,7 @@ body {
   padding: 1em 2em 3.5em 2em;
   position: absolute;
   margin: -55px 0px 0px -17px;
+  
 }
 
 .caixa_texto p {
@@ -135,9 +137,13 @@ body {
   background: black;
   color: white;
   border-radius: 20px;
-  position: absolute;
+  border: none;
   top: 630px;
   right: 21px;
+}
+
+#aulas {
+  padding: 4em 0;
 }
 
 #aulas h1 {
@@ -186,6 +192,7 @@ body {
   background: black;
   color: white;
   border-radius: 20px;
+  border: none;
   width: 100%;
   margin: 14em 0 0;
 }
@@ -216,6 +223,7 @@ body {
   background: black;
   color: white;
   border-radius: 20px;
+  border: none;
   width: 100%;
   margin: 12em 0 0;
 }
@@ -508,7 +516,7 @@ a.slide-g__next,
   margin: 0 0 2em;
 }
 
-.aulas_in-company_botoes input {
+.botao_incompany {
   padding: 15px 10px;
   text-align: center;
   font-family: 'Montserrat';
@@ -750,4 +758,11 @@ form {
   border-radius: 30px;
   width: 19%;
   margin: 0 0px 0.2em 3em;
+}
+
+.botao_agendar:hover, .botao_incompany:hover, .botao_sobre:hover, .botao_particular:hover, .botao_grupo:hover, .enviar:hover {
+  color: white;
+  background: #969696;
+  transition: 400ms;
+  cursor: pointer;
 }
